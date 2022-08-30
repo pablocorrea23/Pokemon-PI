@@ -13,12 +13,12 @@
 
 .container_card:hover{
     background: #A770EF;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #c4eef4, #8bd9ea, #32d2ef);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #c4eef4, #8bd9ea, #32d2ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         box-shadow: 5px 4px 20px rgba(255, 255, 255, 0.822);
 }
 
-.container_card::before{
+/* .container_card::before{
     content: '';
     position:absolute;
     top:-50%;
@@ -27,7 +27,7 @@
     background:#F7F7F7;
     transform:skewY(335deg) ;
     transition: 0.5s;
-}
+} */
 
 .container_card:hover::before{
     top: -70%;

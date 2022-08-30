@@ -3,7 +3,7 @@
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);
     /* Chrome 10-25, Safari 5.1-6 */
-    background-image: linear-gradient(to right, #C5796D, #DBE6F6);
+    background-image: linear-gradient(to right, #8bd9ea, #0362d5);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
 
@@ -24,7 +24,7 @@
     text-shadow: 0 10px 25px rgba(5, 4, 8, 0.397);
     font-size: 50px;
     margin-bottom: 25px;
-    margin-right: 0px;
+    margin-right: 40px;
 }
 
 

@@ -35,7 +35,7 @@ export default function Details() {
                     <div className="details_container">
                         <div className="header">
                             <img className="img" src={pokemon[0].img} alt='img'></img>
-                            <h2 className="title">Hi! I´m {pokemon[0].name}</h2>
+                            <h2 className="title">Pokemon {pokemon[0].name}</h2>
                         </div>
 
                         <div className="description">

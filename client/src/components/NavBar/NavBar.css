@@ -18,7 +18,7 @@
     cursor: pointer;
     color: white;
     background-color: #43314D;
-    box-shadow: 0 0 20px #AA76EE, 0 0 40px #AA76EE, 0 0 80px #AA76EE;
+    box-shadow: 0 0 20px #76e4ee, 0 0 40px #76e4ee, 0 0 80px #76e4ee;
     transition: 0.8s;
 }
 
@@ -29,7 +29,7 @@
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #383631ca, #3b322a94);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #42413dd6, #383533);
+    background: linear-gradient(to right, #7e7d7bd6, #383533);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@
     position: fixed;
     z-index: 2;
     margin: 0px;
-    box-shadow: 0 5px 30px rgba(128, 95, 185, 1);
+    box-shadow: 0 5px 30px rgb(119, 211, 235);
 }
 
 .option_navbar {
