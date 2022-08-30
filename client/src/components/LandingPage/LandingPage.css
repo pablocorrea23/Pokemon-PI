@@ -1,0 +1,65 @@
+.ContainerLand {
+    @import url='https://fonts.googleapis.com/css2?family=Delius&display=swap';
+    font-family: 'Delius', cursive;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.xtrafondos.com/wallpapers/pokemon-unite-8254.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.H1Land {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: #5F4B99;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.BlockLand {
+    margin-left: 60px;
+    position: relative;
+    top: 170px;
+}
+
+.MyButtonLand {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #d1a044;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    border: none;
+    margin-left: 640px;
+}
+
+.MyButtonLand :hover {
+    color: #313131;
+    background-color: none;
+    box-shadow: 0 0 20px #AA76EE, 0 0 40px #AA76EE, 0 0 80px #AA76EE;
+    transition: 1.2s;
+    border: none;
+    text-decoration: none;
+}
+
+.Link {
+    text-decoration: none;
+    color: #dadada;
+}
+
+.Link :hover {
+    color: white;
+    text-decoration: none;
+}
