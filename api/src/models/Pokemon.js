@@ -7,7 +7,7 @@ module.exports = (sequelize) => {
     id: {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,
-      allowNull: false,
+      allowNull: false, // no se permite que este vacio
       primaryKey: true
     },
     img: {
@@ -41,7 +41,7 @@ module.exports = (sequelize) => {
       type: DataTypes.INTEGER,
       allowNull: false
     },
-    createdInDb: {
+    createdInDb: {          //createdInDb sirve para acceder mucho mas facil al personaje que creamos en base de datos
       type: DataTypes.BOOLEAN,
       defaultValue: true, 
       allowNull: false

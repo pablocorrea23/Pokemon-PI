@@ -20,6 +20,8 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+//no olvidar envolver con el provider sino el redux no nos va a andar
+
 //el provider abraza a toda la app con la store para que cualquier componente se sirva de los estados.
 //solamente podemos tener un reactDom render por aplicación
 //solamente podemos tener una store y varios reducers por aplicacion

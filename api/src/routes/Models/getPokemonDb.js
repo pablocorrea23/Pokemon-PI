@@ -1,13 +1,13 @@
 const {Pokemon, Type} = require('../../db');
 
-const getDbPokemonInfo = async()=>{
-    const dbPokemons = await Pokemon.findAll({
-        include: {
+const getDbPokemonInfo = async()=>{   //traemos la info de la base de datos
+    const dbPokemons = await Pokemon.findAll({  //la traemos con findAll
+        include: {   //que incluya
             model: Type,
             as: 'type',
             atributes: ['name'], 
             through: {
-                atributes: []
+                atributes: [] //mediante el trabuto, comprobacion
             }
         }
     })
